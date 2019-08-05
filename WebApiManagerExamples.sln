@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiManager", "WebApiMana
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApiManager.MSTests", "WebApiManager.MSTests\WebApiManager.MSTests.csproj", "{C34B6B69-FADF-4701-92AF-EA73F4BE9B3B}"
 EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "WebApiManager.Data", "WebApiManager.Data\WebApiManager.Data.sqlproj", "{B865841A-742D-4E27-9BA7-6CB33C029C54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,12 @@ Global
 		{C34B6B69-FADF-4701-92AF-EA73F4BE9B3B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C34B6B69-FADF-4701-92AF-EA73F4BE9B3B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C34B6B69-FADF-4701-92AF-EA73F4BE9B3B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B865841A-742D-4E27-9BA7-6CB33C029C54}.Release|Any CPU.Deploy.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

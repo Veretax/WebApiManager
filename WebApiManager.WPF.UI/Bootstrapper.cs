@@ -7,7 +7,9 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using WebApiManager.WPF.UI.Helpers;
+using WebApiManager.WPF.UI.Library.Helpers;
 using WebApiManager.WPF.UI.ViewModels;
+using WebApiManager.WPF.UI.Library.Models;
 
 namespace WebApiManager.WPF.UI
 {
@@ -32,6 +34,7 @@ namespace WebApiManager.WPF.UI
             _container
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>()
+                .Singleton<ILoggedInUserModel, LoggedInUserModel>()
                 .Singleton<IAPIHelper, APIHelper>();
 
             GetType().Assembly.GetTypes()

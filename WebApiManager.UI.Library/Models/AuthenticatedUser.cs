@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace WebApiManager.WPF.UI.Models
+namespace WebApiManager.WPF.UI.Library.Models
 {
     public class AuthenticatedUser
     {

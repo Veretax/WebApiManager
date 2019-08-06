@@ -5,6 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiManager.WPF.UI.Helpers;
+using WebApiManager.WPF.UI.Library.Helpers;
 
 namespace WebApiManager.WPF.UI.ViewModels
 {

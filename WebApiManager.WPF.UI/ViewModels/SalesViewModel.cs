@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace WebApiManager.WPF.UI.ViewModels
 {
-    public class SalesViewModels : Screen
+    public class SalesViewModel : Screen
     {
         private BindingList<string> _products;
 
@@ -34,9 +34,9 @@ namespace WebApiManager.WPF.UI.ViewModels
             }
         }
 
-        private string _itemQuantity;
+        private int _itemQuantity;
 
-        public string ItemQuantity
+        public int ItemQuantity
         {
             get { return _itemQuantity; }
             set
@@ -84,10 +84,10 @@ namespace WebApiManager.WPF.UI.ViewModels
 
                 // Make sure something is selected
                 // Make sure there is an item quantity
-                if (ItemQuantity?.Length > 0)
-                {
-                    output = true;
-                }
+                //if (ItemQuantity?.Length > 0)
+                //{
+                //    output = true;
+                //}
 
                 return output;
             }
@@ -106,10 +106,10 @@ namespace WebApiManager.WPF.UI.ViewModels
                 bool output = false;
 
                 // Make sure something is selected
-                if (ItemQuantity?.Length > 0)
-                {
-                    output = true;
-                }
+                //if (ItemQuantity?.Length > 0)
+                //{
+                //    output = true;
+                //}
 
                 return output;
             }
@@ -128,10 +128,10 @@ namespace WebApiManager.WPF.UI.ViewModels
                 bool output = false;
 
                 // Make sure something is in the Cart
-                if (ItemQuantity?.Length > 0)
-                {
-                    output = true;
-                }
+                //if (ItemQuantity?.Length > 0)
+                //{
+                //    output = true;
+                //}
 
                 return output;
             }

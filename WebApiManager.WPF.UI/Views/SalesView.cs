@@ -18,9 +18,9 @@ namespace WebApiManager.WPF.UI.Views
     /// <summary>
     /// Interaction logic for SaleView.xaml
     /// </summary>
-    public partial class SaleView : UserControl
+    public partial class SalesView : UserControl
     {
-        public SaleView()
+        public SalesView()
         {
             InitializeComponent();
         }

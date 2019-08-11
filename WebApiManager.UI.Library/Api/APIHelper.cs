@@ -16,9 +16,11 @@ namespace WebApiManager.WPF.UI.Library.Api
         public HttpClient ApiClient { get; set; }
         private ILoggedInUserModel _loggedInUser;
 
-        public APIHelper()
+        public APIHelper(ILoggedInUserModel loggedInUser)
         {
             InitializeClient();
+            _loggedInUser = loggedInUser;
+
         }
 
         private void InitializeClient()

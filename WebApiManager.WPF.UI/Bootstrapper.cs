@@ -13,7 +13,6 @@ using WebApiManager.WPF.UI.Library.Models;
 
 namespace WebApiManager.WPF.UI
 {
-
     public class Bootstrapper : BootstrapperBase
     {
         private SimpleContainer _container = new SimpleContainer();
@@ -31,6 +30,7 @@ namespace WebApiManager.WPF.UI
         protected override void Configure()
         {
             _container.Instance(_container);
+
             _container
                 .Singleton<IWindowManager, WindowManager>()
                 .Singleton<IEventAggregator, EventAggregator>()

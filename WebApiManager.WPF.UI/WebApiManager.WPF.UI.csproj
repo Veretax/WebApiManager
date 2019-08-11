@@ -74,15 +74,16 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="EventModels\LogOnEvent.cs" />
     <Compile Include="ViewModels\LoginViewModel.cs" />
-    <Compile Include="ViewModels\SalesViewModels.cs" />
+    <Compile Include="ViewModels\SalesViewModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Page Include="Views\LoginView.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
     <Compile Include="Views\LoginView.xaml.cs" />
-    <Page Include="Views\SaleView.xaml">
+    <Page Include="Views\SalesView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -90,8 +91,8 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
-    <Compile Include="Views\SaleView.xaml.cs">
-      <DependentUpon>SaleView.xaml</DependentUpon>
+    <Compile Include="Views\SalesView.cs">
+      <DependentUpon>SalesView.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\ShellView.xaml.cs" />
     <Compile Include="App.xaml.cs">

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using WebApiManager.WPF.UI.Helpers;
-using WebApiManager.WPF.UI.Library.Helpers;
+using WebApiManager.WPF.UI.Library.Api;
 using WebApiManager.WPF.UI.ViewModels;
 using WebApiManager.WPF.UI.Library.Models;
 

@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 using WebApiManager.WPF.UI.Library.Models;
 
 
-namespace WebApiManager.WPF.UI.Library.Helpers
+namespace WebApiManager.WPF.UI.Library.Api
 {
     public class APIHelper : IAPIHelper
     {

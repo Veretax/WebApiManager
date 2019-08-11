@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using WebApiManager.WPF.UI.Helpers;
-using WebApiManager.WPF.UI.Library.Helpers;
+using WebApiManager.WPF.UI.Library.Api;
 
 namespace WebApiManager.WPF.UI.ViewModels
 {
@@ -87,6 +87,10 @@ namespace WebApiManager.WPF.UI.ViewModels
             {
                 ErrorMessage = "";
                 var result = await _apiHelper.Authenticate(UserName, Password);
+
+                // capture more information about the user
+                await _apiHelper.GetLoggedInUserInfo(result.Access_Token);
+
             }
             catch (Exception ex)
             {

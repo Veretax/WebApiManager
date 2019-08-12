@@ -10,7 +10,8 @@ namespace WebApiManager.WPF.UI.Library.Api
 {
     public interface IAPIHelper
     {
-        HttpClient ApiClient { get; set; }
+        HttpClient ApiClient { get; }
+
         Task<AuthenticatedUser> Authenticate(string userName, string password);
         Task GetLoggedInUserInfo(string token);
     }

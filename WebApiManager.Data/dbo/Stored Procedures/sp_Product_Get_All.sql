@@ -4,5 +4,5 @@ BEGIN
 	SET NOCOUNT ON;
 	SELECT [Id], [ProductName], [Description], [RetailPrice], [QuantityInStock]
 		FROM dbo.Product
-		ORDER by Product.ProductName;
+		ORDER by Product.ProductName ASC;
 END

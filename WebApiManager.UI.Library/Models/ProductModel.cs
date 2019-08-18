@@ -13,5 +13,6 @@ namespace WebApiManager.WPF.UI.Library.Models
         public string Description { get; set; }
         public Decimal RetailPrice { get; set; }
         public int QuantityInStock { get; set; }
+        public bool IsTaxable { get; set; }
     }
 }
